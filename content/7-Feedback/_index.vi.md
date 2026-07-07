@@ -1,44 +1,41 @@
 ---
-title: "Chia sẻ, đóng góp ý kiến"
-date: 2024-01-01
+title: "Chia sẻ và phản hồi"
+date: 2026-07-05
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+### Cảm nhận chung
 
-### Đánh giá chung
+Chương trình **Workforce Bootcamp - First Cloud AI Journey** giúp tôi có cơ hội tiếp cận AWS theo lộ trình rõ ràng hơn, từ các khái niệm cloud cơ bản đến cách áp dụng vào một project thực tế. Thông qua project **SmartHospital P2TB**, tôi hiểu rằng một hệ thống hoàn chỉnh không chỉ có giao diện, mà còn cần backend, xác thực, dữ liệu, bảo mật, monitoring và quy trình deploy.
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+### Điều tôi học được
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+* Hiểu rõ hơn vai trò của các dịch vụ AWS như Cognito, Lambda, API Gateway, DynamoDB, S3, CloudFront và CloudWatch.
+* Biết cách liên hệ kiến thức cloud với một project thực tế có nhiều vai trò người dùng.
+* Rèn luyện kỹ năng phát triển Flutter mobile, gọi API, xử lý dữ liệu JSON và kiểm tra lỗi giao diện.
+* Hiểu thêm về teamwork khi nhiều thành viên cùng phát triển backend, web, mobile và hạ tầng.
+* Nhận ra tầm quan trọng của tài liệu, worklog và minh chứng trong quá trình thực tập.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+### Điều hài lòng nhất
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+Điều tôi hài lòng nhất là được làm trên một project có ngữ cảnh thực tế. Project bệnh viện giúp tôi dễ hình dung vì sao cần đăng nhập theo vai trò, vì sao dữ liệu bệnh án phải đồng bộ, vì sao thanh toán cần kiểm tra trạng thái rõ ràng và vì sao mobile cần bám sát backend thay vì chỉ làm giao diện tĩnh.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+### Khó khăn gặp phải
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+* Ban đầu còn gặp nhiều lỗi khi cài Flutter, chạy emulator và cấu hình Android Studio.
+* Có lúc chưa phân biệt rõ phần demo mobile và phần code chính thức cần đẩy lên Git.
+* Yêu cầu báo cáo thay đổi nhiều lần nên cần chỉnh lại worklog, event và thông tin cá nhân cho đúng template.
+* Việc đồng bộ mobile với backend cần thống nhất kỹ tên API, tên trường dữ liệu và trạng thái nghiệp vụ.
 
+### Góp ý và đề xuất
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+* Nên có checklist báo cáo rõ từ đầu, đặc biệt là số tuần worklog, các mục bắt buộc và yêu cầu minh chứng.
+* Nên có một mẫu project/report hoàn chỉnh hơn để sinh viên dễ đối chiếu.
+* Với project nhóm, nên chốt branch Git, quy tắc merge và phạm vi từng thành viên sớm để tránh xung đột.
+* Nên có buổi hướng dẫn riêng về cách lưu ảnh minh chứng, cách viết worklog và cách trình bày event.
 
+### Kết luận
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+Tôi đánh giá chương trình giúp tôi có thêm kiến thức thực tế về AWS, quy trình làm project và cách phối hợp trong nhóm. Sau quá trình này, tôi tự tin hơn khi làm việc với Flutter mobile, API backend và báo cáo kỹ thuật theo template.

@@ -1,59 +1,29 @@
 ---
 title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+date: 2026-07-05
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu tuần 11
 
-### Mục tiêu tuần 11:
+* Xây dựng hồ sơ bệnh án, hóa đơn và thanh toán trên mobile.
+* Tích hợp luồng payment URL từ backend.
+* Đồng bộ dữ liệu mobile với backend và website.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc đã triển khai
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Hạng mục | Nội dung |
+| --- | --- |
+| Hồ sơ bệnh án | Xây dựng màn hình hiển thị mã hồ sơ theo CCCD, thông tin bệnh nhân, danh sách đợt khám, phiếu khám, đơn thuốc, xét nghiệm và sự kiện y tế. |
+| Hóa đơn | Xây dựng màn hình hóa đơn chờ thanh toán, hóa đơn đã thanh toán, chi tiết tiền dịch vụ và trạng thái thanh toán. |
+| Thanh toán thật | Tích hợp luồng nhận `paymentUrl` từ backend và mở cổng thanh toán VNPay/MoMo bằng webview hoặc trình duyệt ngoài. |
+| Màn hình hỗ trợ | Bổ sung các màn hình liên quan như xét nghiệm, giỏ hàng/hóa đơn, phân quyền và các trang còn thiếu để mobile không chỉ là demo tĩnh. |
+| Sửa lỗi Flutter | Xử lý lỗi import, model, route, overflow, null-safety, thiếu `await` và widget không rebuild sau khi dữ liệu cập nhật. |
 
+### Kết quả đạt được
 
-### Kết quả đạt được tuần 11:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Mobile có màn hình hồ sơ bệnh án và hóa đơn theo dữ liệu backend.
+* Luồng thanh toán thật trên mobile được chuẩn bị theo payment URL từ backend.
+* Tên endpoint, trường dữ liệu và trạng thái nghiệp vụ được đồng bộ với nhóm backend/frontend.

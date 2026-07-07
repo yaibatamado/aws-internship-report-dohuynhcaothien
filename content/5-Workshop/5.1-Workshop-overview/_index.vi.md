@@ -1,19 +1,37 @@
 ---
-title : "Giới thiệu"
-date : 2024-01-01 
+title : "Tổng quan workshop"
+date : 2026-07-05
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
+#### Tình huống lab
 
-#### Tổng quan về workshop
-Trong workshop này, bạn sẽ sử dụng hai VPC.
-+ **"VPC Cloud"** dành cho các tài nguyên cloud như Gateway endpoint và EC2 instance để kiểm tra.
-+ **"VPC On-Prem"** mô phỏng môi trường truyền thống như nhà máy hoặc trung tâm dữ liệu của công ty. Một EC2 Instance chạy phần mềm StrongSwan VPN đã được triển khai trong "VPC On-prem" và được cấu hình tự động để thiết lập đường hầm VPN Site-to-Site với AWS Transit Gateway. VPN này mô phỏng kết nối từ một vị trí tại TTDL (on-prem) với AWS cloud. Để giảm thiểu chi phí, chỉ một phiên bản VPN được cung cấp để hỗ trợ workshop này. Khi lập kế hoạch kết nối VPN cho production workloads của bạn, AWS khuyên bạn nên sử dụng nhiều thiết bị VPN để có tính sẵn sàng cao.
+Trong workshop này, bạn sẽ triển khai MedChain AI, một ứng dụng quản lý bệnh viện sử dụng AWS managed services cho frontend hosting, backend API, xác thực, database, thanh toán, blockchain validation và monitoring.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+Sau khi hoàn thành lab, ứng dụng cần có:
+
++ Web frontend host trên Amazon S3 và phân phối bằng CloudFront.
++ Backend API mở bằng API Gateway và xử lý bằng Lambda.
++ Đăng nhập và phân quyền bằng Cognito.
++ Dữ liệu bệnh viện lưu trong DynamoDB và tài liệu lưu trong S3.
++ Luồng thanh toán hóa đơn bằng VNPay Sandbox.
++ Tích hợp AMB Ethereum node để lưu metadata toàn vẹn hồ sơ bệnh án.
++ CloudWatch logs, metrics và alarms.
+
+![Tổng quan MedChain AI](/images/5-Workshop/5.1-Workshop-overview/mechain_ai.png)
+
+#### Cách viết lab
+
+Mỗi bước triển khai được viết theo hai cách:
+
++ **Cách A - AWS Console** dành cho người muốn thao tác trên giao diện AWS và chụp màn hình.
++ **Cách B - Lệnh / code deployment** dành cho người muốn triển khai lặp lại bằng AWS CLI, CDK và PowerShell.
+
+Sử dụng stack name riêng cho lab:
+
+```
+MedChainAiLabStack
+```

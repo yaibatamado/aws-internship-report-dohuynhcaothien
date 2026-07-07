@@ -1,33 +1,35 @@
 ---
-title: "Workshop"
-date: 2024-01-01
-weight: 5
-chapter: false
-pre: " <b> 5. </b> "
+title : "Workshop"
+date : 2024-01-01
+weight : 5
+chapter : false
+pre : " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+# Triển khai MedChain AI trên AWS
 
 #### Tổng quan
 
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
+MedChain AI là bài lab thực hành xây dựng hệ thống quản lý bệnh viện hoàn chỉnh trên AWS. Workshop này hướng dẫn người học từ bước chuẩn bị đến khi ứng dụng chạy được trên CloudFront domain mặc định.
 
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
+Bài lab có hai cách thực hiện:
 
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
++ **Cách A - AWS Console:** tạo và cấu hình tài nguyên bằng giao diện AWS Management Console.
++ **Cách B - Lệnh / code deployment:** tạo và triển khai tài nguyên bằng AWS CLI, AWS CDK, PowerShell và source code MedChain AI.
+
+Website cuối cùng chạy bằng CloudFront distribution domain. VNPay Return URL và IPN URL cũng dùng CloudFront domain.
+
+Thứ tự trong workshop được sắp xếp theo phụ thuộc thực tế: chuẩn bị tài khoản và công cụ, tạo các dịch vụ cần có trước khi deploy, triển khai stack ứng dụng, khởi tạo dữ liệu, cấu hình tích hợp, kiểm thử luồng nghiệp vụ, giám sát hệ thống và dọn dẹp tài nguyên.
 
 #### Nội dung
 
-1. [Tổng quan về workshop](5.1-Workshop-overview/)
-2. [Chuẩn bị](5.2-Prerequiste/)
-3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
-4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
+1. [Tổng quan workshop](5.1-Workshop-overview/)
+2. [Điều kiện chuẩn bị](5.2-Prerequisites/)
+3. [Kiến trúc và thứ tự phụ thuộc](5.3-Architecture/)
+4. [Nền tảng AWS](5.4-AWS-Foundation/)
+5. [Dịch vụ chuẩn bị trước stack](5.5-Pre-Stack-Services/)
+6. [Triển khai application stack](5.6-Deploy-Application/)
+7. [Khởi tạo và chạy ứng dụng](5.7-Initialize-Run/)
+8. [Cấu hình tích hợp và kiểm thử](5.8-Integration-Test/)
+9. [Monitoring, bảo mật, chi phí và cleanup](5.9-Monitoring-Cleanup/)

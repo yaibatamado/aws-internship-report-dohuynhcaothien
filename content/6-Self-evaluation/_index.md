@@ -1,39 +1,40 @@
 ---
 title: "Self-Assessment"
-date: 2024-01-01
+date: 2026-07-05
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+During the **Workforce Bootcamp - First Cloud AI Journey** program at **Amazon Web Services Viet Nam Company Limited**, I had the opportunity to self-study AWS fundamentals and apply them to the **SmartHospital P2TB - Hospital Management System on AWS** project. My main responsibility was developing the **Flutter mobile application**, including patient-facing UI, AWS backend API integration, login/register, appointment booking, medical records, invoices, and mobile payment flows.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+### Self-Assessment Criteria
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+| No. | Criteria | Rating | Notes |
+| --- | --- | --- | --- |
+| 1 | Technical knowledge | Good | Improved Flutter, API client, JSON model handling, and understanding of AWS services used in the project. |
+| 2 | Learning ability | Good | Proactively learned from AWS Study Group materials and applied the knowledge to worklog/report content. |
+| 3 | Proactivity | Fairly good | Asked questions, checked errors, ran the app, and updated report content when requirements changed. |
+| 4 | Responsibility | Good | Tried to complete the assigned mobile and report scope properly. |
+| 5 | Discipline | Fairly good | Need to improve progress notes and evidence collection after each activity. |
+| 6 | Team communication | Fairly good | Coordinated with the team about APIs, data, Git branches, and merge requirements, but should communicate major changes more clearly. |
+| 7 | Problem solving | Good | Handled Flutter environment issues, emulator launch problems, UI bugs, and data integration issues. |
+| 8 | Project contribution | Good | Contributed mainly to Flutter mobile development, patient UI, worklog, and report preparation. |
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+### Strengths
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+* Able to learn new tools quickly when given the right direction.
+* Persistent in resolving environment and mobile runtime issues.
+* Able to break down work by week and assigned scope.
+* Aware that mobile UI should be synchronized with backend and web instead of remaining a static demo.
 
-### Needs Improvement
+### Areas for Improvement
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+* Save screenshots, test logs, and technical notes more consistently.
+* Read requirements more carefully before implementation to avoid mistakes in timeline or report scope.
+* Improve how issues are described when communicating with the team.
+* Continue learning more about mobile security, Cognito/JWT, and production deployment.
+
+### Conclusion
+
+I assess that I completed my assigned mobile and report scope well. Although there are still areas to improve, the internship helped me better understand how a real application requires coordination across mobile, web frontend, backend, data, and AWS infrastructure.

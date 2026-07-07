@@ -117,3 +117,37 @@ a:hover {
 #sidebar hr {
   border-color: var(--MENU-SECTION-HR-color);
 }
+
+.student-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.student-info {
+  flex: 1 1 auto;
+}
+
+.student-info p {
+  margin: 0 0 0.85rem;
+}
+
+.student-photo {
+  width: 170px;
+  max-width: 34vw;
+  border-radius: 8px;
+  border: 1px solid #d7dee8;
+  box-shadow: 0 10px 26px rgba(20, 35, 60, 0.16);
+}
+
+@media (max-width: 720px) {
+  .student-profile {
+    flex-direction: column-reverse;
+  }
+
+  .student-photo {
+    width: 150px;
+    max-width: 60vw;
+  }
+}

@@ -1,44 +1,34 @@
 ---
 title: "Internship Report"
-date: 2024-01-01
+date: 2026-07-05
 weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
 
-&emsp; **Phone Number:** 0989888999 
-
-&emsp; **Email:** Anguyenvan@gmail.com
-
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
-
-&emsp; **Major:** Information Technology
-
-&emsp; **Class:** AWS082025
-
-&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
-
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
-
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
-
-![Your profile picture](/images/avatar.png)
+<div class="student-profile">
+  <div class="student-info">
+    <p><strong>Full Name:</strong> Do Huynh Cao Thien</p>
+    <p><strong>Phone Number:</strong> 0962755796</p>
+    <p><strong>Email:</strong> <a href="mailto:yaibatamado@gmail.com">yaibatamado@gmail.com</a></p>
+    <p><strong>University:</strong> Ho Chi Minh City University of Technology (HUTECH)</p>
+    <p><strong>Major:</strong> Information Technology</p>
+    <p><strong>Internship Company:</strong> Amazon Web Services Viet Nam Company Limited</p>
+    <p><strong>Internship Position:</strong> Workforce Bootcamp - First Cloud AI Journey</p>
+    <p><strong>Internship Duration:</strong> From 17/04/2026 to 10/07/2026</p>
+  </div>
+  <img class="student-photo" src="/images/cao-thien-profile.jpg" alt="Do Huynh Cao Thien profile photo">
+</div>
 
 ### Report Content
 
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [BlogsPosted](3-BlogsPosted/)
-4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
+1. [Worklog](1-Worklog/)
+2. [Proposal](2-Proposal/)
+3. [Blogs Posted](3-BlogsPosted/)
+4. [Events Participated](4-EventParticipated/)
+5. [Workshop](5-Workshop/)
+6. [Self-evaluation](6-Self-evaluation/)
+7. [Sharing and Feedback](7-Feedback/)

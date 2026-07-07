@@ -1,58 +1,29 @@
 ---
 title: "Worklog Tuần 12"
-date: 2024-01-01
-weight: 2
+date: 2026-07-05
+weight: 12
 chapter: false
-pre: " <b> 1.12 </b> "
+pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-### Mục tiêu tuần 12:
+### Mục tiêu tuần 12
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Kiểm thử toàn bộ ứng dụng mobile với backend AWS đã deploy.
+* Kiểm tra đồng bộ dữ liệu giữa mobile và website.
+* Chuẩn bị minh chứng và nội dung mô tả đóng góp cá nhân.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Công việc đã triển khai
 
+| Hạng mục | Nội dung |
+| --- | --- |
+| Kiểm thử mobile | Kiểm tra đăng nhập, đăng ký, thông tin bệnh nhân, đặt lịch, lịch hẹn, hồ sơ bệnh án, xét nghiệm, đơn thuốc và hóa đơn. |
+| Kiểm thử thanh toán | Chọn hóa đơn, mở `paymentUrl`, xử lý kết quả sau thanh toán, reload trạng thái hóa đơn và hiển thị thông báo rõ ràng. |
+| Đồng bộ web/mobile | Kiểm tra cùng một tài khoản bệnh nhân thấy cùng thông tin cá nhân, lịch hẹn, hồ sơ bệnh án, hóa đơn và trạng thái thanh toán. |
+| Sửa lỗi cuối | Sửa lỗi thiếu trang chủ, layout màn hình nhỏ, button tràn, danh sách rỗng thiếu thông báo và trạng thái loading chưa rõ. |
+| Minh chứng báo cáo | Chuẩn bị ảnh/nội dung cho đăng nhập, đăng ký, trang chủ, đặt lịch, hồ sơ bệnh án, hóa đơn/thanh toán và kết nối backend thật. |
 
-### Kết quả đạt được tuần 12:
+### Kết quả đạt được
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Ứng dụng mobile được kiểm thử theo các luồng chính với backend AWS.
+* Mobile và website được định hướng hiển thị dữ liệu thống nhất cho cùng bệnh nhân.
+* Hoàn thiện mô tả đóng góp của Cao Thiên: chuyển mobile từ demo tĩnh sang ứng dụng kết nối API backend và hỗ trợ chức năng chính.
