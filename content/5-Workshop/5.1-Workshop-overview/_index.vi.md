@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tổng quan workshop"
 date : 2026-07-05
 weight : 1
@@ -21,7 +21,7 @@ Sau khi hoàn thành lab, ứng dụng cần có:
 + Tích hợp AMB Ethereum node để lưu metadata toàn vẹn hồ sơ bệnh án.
 + CloudWatch logs, metrics và alarms.
 
-![Tổng quan MedChain AI](/images/5-Workshop/5.1-Workshop-overview/mechain_ai.png)
+![Tổng quan MedChain AI](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.1-Workshop-overview/mechain_ai.png)
 
 #### Cách viết lab
 

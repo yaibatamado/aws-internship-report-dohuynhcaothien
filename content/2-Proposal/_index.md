@@ -1,4 +1,4 @@
----
+﻿---
 title: "Proposal"
 date: 2026-07-05
 weight: 2
@@ -71,7 +71,7 @@ DynamoDB stores the main hospital data using a single-table design model. The sy
 
 The AI flow is processed through the backend service. Medical data is retrieved from DynamoDB, processed into a safe summary, and then reviewed and approved by doctors before being saved into the official medical record. Approved AI summaries can also be added to the Medical Integrity Ledger for integrity verification.
 
-![MedChain AI AWS Architecture](/images/2-Proposal/architecture.png)
+![MedChain AI AWS Architecture](/aws-internship-report-dohuynhcaothien/images/2-Proposal/architecture.png)
 
 
 #### AWS Services Used

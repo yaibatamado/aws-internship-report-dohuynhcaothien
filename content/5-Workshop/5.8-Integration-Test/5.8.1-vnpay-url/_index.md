@@ -1,4 +1,4 @@
----
+﻿---
 title : "Configure VNPay IPN and Return URL"
 date : 2024-01-01
 weight : 1
@@ -17,7 +17,7 @@ Configure VNPay callback URLs after the CloudFront domain is available.
 3. Set IPN URL to `https://<cloudfront-domain>/api/payment/vnpay-ipn`.
 4. Do not add `#` before the URL.
 
-![VNPay IPN](/images/5-Workshop/5.8-Integration-Test/5.8.1-vnpay-url/vnpay.png)
+![VNPay IPN](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.1-vnpay-url/vnpay.png)
 
 #### Method B - Command / code deployment
 

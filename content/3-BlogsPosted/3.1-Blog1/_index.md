@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 1"
 date: 2026-07-05
 weight: 1
@@ -136,7 +136,7 @@ This is useful because a system may need high performance but not a large amount
 
 The key idea is that encryption strategy should not be designed separately from infrastructure cost. Storage, key management, audit logs, and access control should all be considered together when designing a secure and cost-effective SaaS architecture.
 
-![Blog 1](/images/3-Blog/Blog-1.png)
+![Blog 1](/aws-internship-report-dohuynhcaothien/images/3-Blog/Blog-1.png)
 
 ## 7. Main lessons from the article
 

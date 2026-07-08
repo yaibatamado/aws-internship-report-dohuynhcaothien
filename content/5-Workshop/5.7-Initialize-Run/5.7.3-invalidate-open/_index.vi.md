@@ -1,4 +1,4 @@
----
+﻿---
 title : "Invalidate CloudFront và mở website"
 date : 2024-01-01
 weight : 3
@@ -17,7 +17,7 @@ Refresh CloudFront cache và mở website đã deploy.
 3. Tạo invalidation cho `/*`.
 4. Mở distribution domain.
 
-![CloudFront behaviors](/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/cloudfront-web.png)
+![CloudFront behaviors](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/cloudfront-web.png)
 
 #### Cách B - Lệnh / code deployment
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 3"
 date: 2026-07-05
 weight: 3
@@ -183,7 +183,7 @@ Quy trình gồm các giai đoạn như:
 
 Quy trình triển khai có cấu trúc giúp giảm rủi ro gián đoạn dịch vụ và đảm bảo giải pháp cuối cùng đáp ứng yêu cầu vận hành cũng như tuân thủ.
 
-![Blog 3](/images/3-Blog/Blog-3.png)
+![Blog 3](/aws-internship-report-dohuynhcaothien/images/3-Blog/Blog-3.png)
 
 
 ## 10. Bài học chính từ bài viết

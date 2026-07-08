@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tạo application stack"
 date : 2024-01-01
 weight : 1
@@ -17,7 +17,7 @@ Deploy main MedChain AI stack sau khi pre-stack services đã sẵn sàng.
 3. Nhập stack name `MedChainAiLabStack`.
 4. Chờ **CREATE_COMPLETE**.
 
-![Stack complete](/images/5-Workshop/5.6-Deploy-Application/5.6.1-deploy-stack/stack.png)
+![Stack complete](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.1-deploy-stack/stack.png)
 
 #### Cách B - Lệnh / code deployment
 
@@ -35,4 +35,4 @@ npx cdk deploy $StackName --profile $Profile --require-approval never
 
 CloudFormation stack phải CREATE_COMPLETE và có outputs.
 
-![Stack complete](/images/5-Workshop/5.6-Deploy-Application/5.6.1-deploy-stack/stack_1.png)
+![Stack complete](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.1-deploy-stack/stack_1.png)

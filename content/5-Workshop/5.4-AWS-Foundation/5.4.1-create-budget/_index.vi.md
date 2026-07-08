@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tạo budget và chọn region"
 date : 2024-01-01
 weight : 1
@@ -19,9 +19,9 @@ Tạo budget alert và xác nhận region trước khi tạo bất kỳ tài ngu
 4. Thêm email notification.
 5. Chọn **ap-southeast-1** trong AWS region selector cho tài nguyên ứng dụng.
 
-![Budget result](/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-1.png)
-![Budget result](/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-2.png)
-![Budget result](/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-3.png)
+![Budget result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-1.png)
+![Budget result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-2.png)
+![Budget result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-3.png)
 
 #### Cách B - Lệnh / code deployment
 

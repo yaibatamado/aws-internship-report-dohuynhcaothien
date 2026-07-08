@@ -1,4 +1,4 @@
----
+﻿---
 title : "Create and verify data, auth, API resources"
 date : 2024-01-01
 weight : 2
@@ -17,11 +17,11 @@ Confirm that the stack created DynamoDB, S3, Cognito, Lambda and API Gateway res
 3. Open **Cognito** and verify user pool/groups.
 4. Open **Lambda** and **API Gateway** and verify APIs.
 
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/dynamodb.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/s3.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito_1.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/lambda.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/dynamodb.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/s3.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito_1.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/lambda.png)
 
 #### Method B - Command / code deployment
 
@@ -37,4 +37,4 @@ aws cloudformation describe-stacks `
 #### Validation
 
 Outputs should include API endpoint, CloudFront domain, bucket names, table name and user pool ID.
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/code.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/code.png)

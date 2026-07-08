@@ -1,4 +1,4 @@
----
+﻿---
 title : "Kiến trúc và thứ tự phụ thuộc"
 date : 2024-01-01
 weight : 3
@@ -23,7 +23,7 @@ Bài lab MedChain AI sử dụng các dịch vụ AWS sau:
 
 Người dùng truy cập hệ thống bằng CloudFront distribution domain.
 
-![Sơ đồ kiến trúc](/images/5-Workshop/5.3-Architecture/architecture-0.png)
+![Sơ đồ kiến trúc](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.3-Architecture/architecture-0.png)
 
 #### Luồng thực thi chính
 

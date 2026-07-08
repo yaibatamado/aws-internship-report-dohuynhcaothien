@@ -1,4 +1,4 @@
----
+﻿---
 title : "Prepare VNPay Sandbox"
 date : 2024-01-01
 weight : 1
@@ -17,7 +17,7 @@ Prepare VNPay Sandbox information before deploying the payment backend.
 3. Collect **Hash Secret** and store it securely.
 4. Do not configure IPN/Return URL yet. These URLs will be available only after CloudFront is created.
 
-![VNPay info](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.1-vnpay/vnpay.png)
+![VNPay info](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.1-vnpay/vnpay.png)
 
 #### Method B - Environment variables
 

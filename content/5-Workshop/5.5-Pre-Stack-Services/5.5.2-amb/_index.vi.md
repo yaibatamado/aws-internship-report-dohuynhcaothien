@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tạo AMB Ethereum node"
 date : 2024-01-01
 weight : 2
@@ -18,10 +18,10 @@ Tạo AMB Ethereum node thật trước khi bật blockchain ledger validation.
 4. Chờ trạng thái **Available**.
 5. Copy HTTP endpoint.
 
-![AMB Ethereum node](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_1.png)
-![AMB Ethereum node](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_2.png)
-![AMB Ethereum node](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_3.png)
-![AMB Ethereum node](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_4.png)
+![AMB Ethereum node](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_1.png)
+![AMB Ethereum node](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_2.png)
+![AMB Ethereum node](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_3.png)
+![AMB Ethereum node](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_4.png)
 
 #### Cách B - Lệnh / code deployment
 

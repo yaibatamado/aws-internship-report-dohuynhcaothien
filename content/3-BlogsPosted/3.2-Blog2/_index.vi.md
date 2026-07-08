@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 2"
 date: 2026-07-05
 weight: 2
@@ -197,7 +197,7 @@ Bài viết nhấn mạnh rằng xác thực không nên là một mô hình c�
 
 Ví dụ, doanh nghiệp có thể chọn WhatsApp OTP ở một số khu vực để giảm chi phí hoặc cải thiện khả năng gửi mã. Đối với hành động rủi ro cao, hệ thống có thể yêu cầu phương thức mạnh hơn như passkey, sinh trắc học hoặc khóa bảo mật phần cứng.
 
-![Blog 2](/images/3-Blog/Blog-2.png)
+![Blog 2](/aws-internship-report-dohuynhcaothien/images/3-Blog/Blog-2.png)
 
 ## 9. Lợi ích của xác thực thích ứng và xác thực liên tục
 

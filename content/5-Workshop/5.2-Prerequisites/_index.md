@@ -1,4 +1,4 @@
----
+﻿---
 title : "Prerequisites"
 date : 2024-01-01
 weight : 2
@@ -29,7 +29,7 @@ aws --version
 git --version
 ```
 
-![Local tools](/images/5-Workshop/5.2-Prerequisites/local.png)
+![Local tools](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.2-Prerequisites/local.png)
 
 #### IAM permission note
 
@@ -44,6 +44,6 @@ $LabRoot = "D:\AWS\LabRuns\MedChainAI-CommandRun"
 New-Item -ItemType Directory -Path $LabRoot -Force | Out-Null
 cd $LabRoot
 ```
-![Region và budget AWS](/images/5-Workshop/5.2-Prerequisites/aws_region.png)
-![Region và budget AWS](/images/5-Workshop/5.2-Prerequisites/iam.png)
-![Region và budget AWS](/images/5-Workshop/5.2-Prerequisites/pttt.png)
+![Region và budget AWS](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.2-Prerequisites/aws_region.png)
+![Region và budget AWS](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.2-Prerequisites/iam.png)
+![Region và budget AWS](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.2-Prerequisites/pttt.png)

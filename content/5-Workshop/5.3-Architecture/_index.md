@@ -1,4 +1,4 @@
----
+﻿---
 title : "Architecture and dependency order"
 date : 2024-01-01
 weight : 3
@@ -24,7 +24,7 @@ The MedChain AI lab uses the following AWS services:
 
 Users access the system through the CloudFront distribution domain.
 
-![Sơ đồ kiến trúc](/images/5-Workshop/5.3-Architecture/architecture-0.png)
+![Sơ đồ kiến trúc](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.3-Architecture/architecture-0.png)
 
 #### Main Execution Flow
 

@@ -1,4 +1,4 @@
----
+﻿---
 title : "Invalidate CloudFront and open website"
 date : 2024-01-01
 weight : 3
@@ -17,7 +17,7 @@ Refresh CloudFront cache and open the deployed website.
 3. Create invalidation for `/*`.
 4. Open the distribution domain.
 
-![CloudFront behaviors](/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/cloudfront-web.png)
+![CloudFront behaviors](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/cloudfront-web.png)
 
 #### Method B - Command / code deployment
 

@@ -1,4 +1,4 @@
----
+﻿---
 title : "Create AMB Ethereum node"
 date : 2024-01-01
 weight : 2
@@ -18,10 +18,10 @@ Create a real AMB Ethereum node before enabling blockchain ledger validation.
 4. Wait until status is **Available**.
 5. Copy the HTTP endpoint.
 
-![AMB Ethereum node](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_1.png)
-![AMB Ethereum node](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_2.png)
-![AMB Ethereum node](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_3.png)
-![AMB Ethereum node](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_4.png)
+![AMB Ethereum node](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_1.png)
+![AMB Ethereum node](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_2.png)
+![AMB Ethereum node](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_3.png)
+![AMB Ethereum node](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.2-amb/amb_4.png)
 
 #### Method B - Command / code deployment
 

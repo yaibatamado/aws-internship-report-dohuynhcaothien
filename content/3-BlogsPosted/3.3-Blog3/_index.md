@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 3"
 date: 2026-07-05
 weight: 3
@@ -184,7 +184,7 @@ This is important because healthcare systems require careful planning and valida
 
 A structured implementation process reduces the risk of service disruption and helps ensure that the final solution meets operational and compliance requirements.
 
-![Blog 3](/images/3-Blog/Blog-3.png)
+![Blog 3](/aws-internship-report-dohuynhcaothien/images/3-Blog/Blog-3.png)
 
 ## 10. Main lessons from the article
 

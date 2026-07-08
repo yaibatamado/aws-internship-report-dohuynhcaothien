@@ -1,4 +1,4 @@
----
+﻿---
 title : "Monitoring, bảo mật, chi phí và cleanup"
 date : 2024-01-01
 weight : 9
@@ -17,8 +17,8 @@ Sau khi ứng dụng có traffic, mở CloudWatch để kiểm tra logs và metr
 3. Kiểm tra các Lambda log groups.
 4. Mở **Metrics** và kiểm tra Lambda errors, duration và throttles.
 
-![CloudWatch logs](/images/5-Workshop/5.9-Monitoring-Cleanup/log_group.png)
-![CloudWatch logs](/images/5-Workshop/5.9-Monitoring-Cleanup/metric.png)
+![CloudWatch logs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.9-Monitoring-Cleanup/log_group.png)
+![CloudWatch logs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.9-Monitoring-Cleanup/metric.png)
 
 #### Cách B - Lệnh / code deployment
 

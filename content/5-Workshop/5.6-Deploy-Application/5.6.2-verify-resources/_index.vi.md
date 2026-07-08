@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tạo và kiểm tra data, auth, API resources"
 date : 2024-01-01
 weight : 2
@@ -17,11 +17,11 @@ Kiểm tra stack đã tạo DynamoDB, S3, Cognito, Lambda và API Gateway.
 3. Mở **Cognito** và kiểm tra user pool/groups.
 4. Mở **Lambda** và **API Gateway** để kiểm tra APIs.
 
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/dynamodb.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/s3.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito_1.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/lambda.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/dynamodb.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/s3.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito_1.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/lambda.png)
 
 #### Cách B - Lệnh / code deployment
 
@@ -38,4 +38,4 @@ aws cloudformation describe-stacks `
 
 Outputs cần có API endpoint, CloudFront domain, bucket names, table name và user pool ID.
 
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/code.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/code.png)

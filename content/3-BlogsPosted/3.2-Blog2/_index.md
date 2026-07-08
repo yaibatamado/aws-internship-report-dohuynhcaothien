@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 2"
 date: 2026-07-05
 weight: 2
@@ -197,7 +197,7 @@ The article highlights that authentication should not be static. Organizations s
 
 For example, a business may choose WhatsApp OTP in some regions to reduce cost or improve delivery reliability. For high-risk actions, the system may require stronger methods such as passkeys, biometrics, or hardware keys.
 
-![Blog 2](/images/3-Blog/Blog-2.png)
+![Blog 2](/aws-internship-report-dohuynhcaothien/images/3-Blog/Blog-2.png)
 
 ## 9. Benefits of adaptive and continuous authentication
 

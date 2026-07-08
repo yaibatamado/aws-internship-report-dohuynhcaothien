@@ -1,4 +1,4 @@
----
+﻿---
 title : "Seed application data"
 date : 2024-01-01
 weight : 1
@@ -16,9 +16,9 @@ Seed demo users and hospital records after Cognito and DynamoDB exist.
 2. Open **Cognito** and create demo users manually if needed.
 3. Confirm roles and sample data are available.
 
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/dynamodb.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito_1.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/dynamodb.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito_1.png)
 
 
 #### Method B - Command / code deployment

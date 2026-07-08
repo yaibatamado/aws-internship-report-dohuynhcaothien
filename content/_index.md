@@ -1,4 +1,4 @@
----
+﻿---
 title: "Internship Report"
 date: 2026-07-05
 weight: 1
@@ -20,7 +20,7 @@ chapter: false
     <p><strong>Internship Position:</strong> Workforce Bootcamp - First Cloud AI Journey</p>
     <p><strong>Internship Duration:</strong> From 17/04/2026 to 10/07/2026</p>
   </div>
-  <img class="student-photo" src="/images/cao-thien-profile.jpg" alt="Do Huynh Cao Thien profile photo">
+  <img class="student-photo" src="/aws-internship-report-dohuynhcaothien/images/cao-thien-profile.jpg" alt="Do Huynh Cao Thien profile photo">
 </div>
 
 ### Report Content

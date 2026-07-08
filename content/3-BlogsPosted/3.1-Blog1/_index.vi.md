@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 1"
 date: 2026-07-05
 weight: 1
@@ -138,7 +138,7 @@ Amazon EBS gp3 cho phép cấu hình dung lượng lưu trữ và hiệu năng m
 
 Ý chính ở đây là chiến lược mã hóa không nên được thiết kế tách rời khỏi chi phí hạ tầng. Storage, key management, audit logs và access control nên được xem xét cùng nhau khi thiết kế kiến trúc SaaS vừa an toàn vừa tối ưu chi phí.
 
-![Blog 1](/images/3-Blog/Blog-1.png)
+![Blog 1](/aws-internship-report-dohuynhcaothien/images/3-Blog/Blog-1.png)
 
 ## 7. Bài học chính từ bài viết
 

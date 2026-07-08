@@ -1,4 +1,4 @@
----
+﻿---
 title : "Điều kiện chuẩn bị"
 date : 2024-01-01
 weight : 2
@@ -29,7 +29,7 @@ aws --version
 git --version
 ```
 
-![Công cụ local](/images/5-Workshop/5.2-Prerequisites/local.png)
+![Công cụ local](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.2-Prerequisites/local.png)
 
 #### Ghi chú quyền IAM
 
@@ -45,6 +45,6 @@ New-Item -ItemType Directory -Path $LabRoot -Force | Out-Null
 cd $LabRoot
 ```
 
-![Region và budget AWS](/images/5-Workshop/5.2-Prerequisites/aws_region.png)
-![Region và budget AWS](/images/5-Workshop/5.2-Prerequisites/iam.png)
-![Region và budget AWS](/images/5-Workshop/5.2-Prerequisites/pttt.png)
+![Region và budget AWS](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.2-Prerequisites/aws_region.png)
+![Region và budget AWS](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.2-Prerequisites/iam.png)
+![Region và budget AWS](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.2-Prerequisites/pttt.png)

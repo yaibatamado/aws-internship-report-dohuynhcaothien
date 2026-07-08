@@ -1,4 +1,4 @@
----
+﻿---
 title : "Create Secrets Manager configuration"
 date : 2024-01-01
 weight : 3
@@ -17,7 +17,7 @@ Store integration settings before the application stack reads them.
 3. Add VNPay and AMB key-value pairs.
 4. Name it `medchain-ai/lab/integrations`.
 
-![Secrets created](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.3-secrets/secrets.png)
+![Secrets created](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.3-secrets/secrets.png)
 
 #### Method B - Command / code deployment
 

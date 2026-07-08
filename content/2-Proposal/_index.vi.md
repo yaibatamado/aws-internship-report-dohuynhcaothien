@@ -1,4 +1,4 @@
----
+﻿---
 title: "Bản đề xuất"
 date: 2026-07-05
 weight: 2
@@ -71,7 +71,7 @@ DynamoDB lưu dữ liệu bệnh viện chính theo mô hình single-table desig
 
 Luồng AI được xử lý thông qua backend service. Dữ liệu y tế được lấy từ DynamoDB, xử lý thành bản tóm tắt an toàn, sau đó bác sĩ xem xét và phê duyệt trước khi lưu vào hồ sơ bệnh án chính thức. Các tóm tắt AI đã được phê duyệt cũng có thể được đưa vào Medical Integrity Ledger để kiểm tra toàn vẹn.
 
-![MedChain AI AWS Architecture](/images/2-Proposal/architecture.png)
+![MedChain AI AWS Architecture](/aws-internship-report-dohuynhcaothien/images/2-Proposal/architecture.png)
 
 
 #### Dịch vụ AWS sử dụng

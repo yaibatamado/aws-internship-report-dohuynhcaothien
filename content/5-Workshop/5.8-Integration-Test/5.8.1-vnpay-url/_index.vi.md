@@ -1,4 +1,4 @@
----
+﻿---
 title : "Cấu hình VNPay IPN và Return URL"
 date : 2024-01-01
 weight : 1
@@ -17,7 +17,7 @@ Cấu hình VNPay callback URLs sau khi CloudFront domain đã sẵn sàng.
 3. Đặt IPN URL là `https://<cloudfront-domain>/api/payment/vnpay-ipn`.
 4. Không thêm dấu `#` trước URL.
 
-![VNPay IPN](/images/5-Workshop/5.8-Integration-Test/5.8.1-vnpay-url/vnpay.png)
+![VNPay IPN](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.1-vnpay-url/vnpay.png)
 
 #### Cách B - Lệnh / code deployment
 

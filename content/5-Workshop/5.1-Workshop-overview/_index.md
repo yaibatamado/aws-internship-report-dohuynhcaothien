@@ -1,4 +1,4 @@
----
+﻿---
 title : "Workshop overview"
 date : 2026-07-05
 weight : 1
@@ -21,7 +21,7 @@ At the end of the lab, the application should include:
 + AMB Ethereum node integration for medical record integrity metadata.
 + CloudWatch logs, metrics, and alarms.
 
-![MedChain AI overview](/images/5-Workshop/5.1-Workshop-overview/mechain_ai.png)
+![MedChain AI overview](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.1-Workshop-overview/mechain_ai.png)
 
 #### Lab implementation pattern
 

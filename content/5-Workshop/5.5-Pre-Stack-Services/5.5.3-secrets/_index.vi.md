@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tạo Secrets Manager configuration"
 date : 2024-01-01
 weight : 3
@@ -17,7 +17,7 @@ Lưu cấu hình tích hợp trước khi application stack đọc các giá tr�
 3. Thêm key-value cho VNPay và AMB.
 4. Đặt tên `medchain-ai/lab/integrations`.
 
-![Secrets created](/images/5-Workshop/5.5-Pre-Stack-Services/5.5.3-secrets/secrets.png)
+![Secrets created](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.5-Pre-Stack-Services/5.5.3-secrets/secrets.png)
 
 #### Cách B - Lệnh / code deployment
 

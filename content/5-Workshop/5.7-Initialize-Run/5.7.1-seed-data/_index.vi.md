@@ -1,4 +1,4 @@
----
+﻿---
 title : "Seed dữ liệu ứng dụng"
 date : 2024-01-01
 weight : 1
@@ -16,9 +16,9 @@ Seed demo users và dữ liệu bệnh viện sau khi Cognito và DynamoDB đã 
 2. Mở **Cognito** và tạo demo users thủ công nếu cần.
 3. Kiểm tra roles và sample data đã có.
 
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/dynamodb.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito.png)
-![Stack outputs](/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito_1.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/dynamodb.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito.png)
+![Stack outputs](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.2-verify-resources/cognito_1.png)
 
 #### Cách B - Lệnh / code deployment
 

@@ -1,4 +1,4 @@
----
+﻿---
 title : "Create budget and choose region"
 date : 2024-01-01
 weight : 1
@@ -19,9 +19,9 @@ Create a budget alert and confirm the region before any resource is created.
 4. Add an email notification.
 5. Choose **ap-southeast-1** in the AWS region selector for application resources.
 
-![Budget result](/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-1.png)
-![Budget result](/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-2.png)
-![Budget result](/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-3.png)
+![Budget result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-1.png)
+![Budget result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-2.png)
+![Budget result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.1-create-budget/create-budgets-3.png)
 
 #### Method B - Command / code deployment
 

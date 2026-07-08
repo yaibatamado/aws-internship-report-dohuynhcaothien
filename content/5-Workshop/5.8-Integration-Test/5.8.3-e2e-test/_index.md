@@ -1,4 +1,4 @@
----
+﻿---
 title : "Run end-to-end test"
 date : 2024-01-01
 weight : 3
@@ -19,16 +19,16 @@ Run the full hospital workflow after all integrations are configured.
 5. Patient pays with VNPay Sandbox.
 6. Medical record ledger metadata is generated.
 
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/dkl.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/dkl_completed.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/lk.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/ttlk.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/pk.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/pk_completed.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/dt.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/dt_completed.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/hsba.png)
-![End-to-end result](/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/hsba_1.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/dkl.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/dkl_completed.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/lk.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/ttlk.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/pk.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/pk_completed.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/dt.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/dt_completed.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/hsba.png)
+![End-to-end result](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.8-Integration-Test/5.8.3-e2e-test/hsba_1.png)
 
 #### Method B - Command / code deployment
 

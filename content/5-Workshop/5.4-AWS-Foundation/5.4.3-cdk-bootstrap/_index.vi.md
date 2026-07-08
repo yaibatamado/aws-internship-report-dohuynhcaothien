@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tạo CDK bootstrap resources"
 date : 2024-01-01
 weight : 3
@@ -17,7 +17,7 @@ Tạo CDK bootstrap stack và artifact bucket trước khi deploy application st
 2. Kiểm tra `CDKToolkit` đã tồn tại chưa.
 3. Mở **S3** và kiểm tra CDK asset bucket sau khi bootstrap.
 
-![CDKToolkit console](/images/5-Workshop/5.4-AWS-Foundation/5.4.3-cdk-bootstrap/cdk.png)
+![CDKToolkit console](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.3-cdk-bootstrap/cdk.png)
 
 #### Cách B - Lệnh / code deployment
 
@@ -38,4 +38,4 @@ aws cloudformation describe-stacks `
   --query "Stacks[0].StackStatus" `
   --output text
 ```
-![CDKToolkit console](/images/5-Workshop/5.4-AWS-Foundation/5.4.3-cdk-bootstrap/cdk_1.png)
+![CDKToolkit console](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.3-cdk-bootstrap/cdk_1.png)

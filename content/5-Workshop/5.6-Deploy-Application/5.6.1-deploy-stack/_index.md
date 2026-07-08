@@ -1,4 +1,4 @@
----
+﻿---
 title : "Create application stack"
 date : 2024-01-01
 weight : 1
@@ -17,7 +17,7 @@ Deploy the main MedChain AI stack after pre-stack services are ready.
 3. Enter stack name `MedChainAiLabStack`.
 4. Wait for **CREATE_COMPLETE**.
 
-![Stack complete](/images/5-Workshop/5.6-Deploy-Application/5.6.1-deploy-stack/stack.png)
+![Stack complete](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.1-deploy-stack/stack.png)
 
 #### Method B - Command / code deployment
 
@@ -35,4 +35,4 @@ npx cdk deploy $StackName --profile $Profile --require-approval never
 
 CloudFormation stack status should be CREATE_COMPLETE and outputs should be available.
 
-![Stack complete](/images/5-Workshop/5.6-Deploy-Application/5.6.1-deploy-stack/stack_1.png)
+![Stack complete](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.1-deploy-stack/stack_1.png)

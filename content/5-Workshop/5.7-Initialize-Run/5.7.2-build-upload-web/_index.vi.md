@@ -1,4 +1,4 @@
----
+﻿---
 title : "Build và upload web frontend"
 date : 2024-01-01
 weight : 2
@@ -17,9 +17,9 @@ Build frontend và upload files sinh ra lên frontend S3 bucket.
 3. Upload files từ `web/dist`.
 4. Kiểm tra có `index.html` và `assets/`.
 
-![CloudFront behaviors](/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/create-s3-5.png)
-![CloudFront behaviors](/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/cloudfront-created.png)
-![CloudFront behaviors](/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/cloudfront-web.png)
+![CloudFront behaviors](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/create-s3-5.png)
+![CloudFront behaviors](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/cloudfront-created.png)
+![CloudFront behaviors](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.6-Deploy-Application/5.6.3-cloudfront/cloudfront-web.png)
 
 #### Cách B - Lệnh / code deployment
 

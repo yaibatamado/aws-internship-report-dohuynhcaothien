@@ -1,4 +1,4 @@
----
+﻿---
 title : "Tạo IAM deployer và local profile"
 date : 2024-01-01
 weight : 2
@@ -19,11 +19,11 @@ Tạo deploy identity và kiểm tra command line có thể truy cập AWS.
 4. Tạo access key nếu dùng AWS CLI.
 5. Không chụp secret access key.
 
-![IAM deployer](/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_1.png)
-![IAM deployer](/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_2.png)
-![IAM deployer](/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_3.png)
-![IAM deployer](/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_4.png)
-![IAM deployer](/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_5.png)
+![IAM deployer](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_1.png)
+![IAM deployer](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_2.png)
+![IAM deployer](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_3.png)
+![IAM deployer](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_4.png)
+![IAM deployer](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_5.png)
 
 #### Cách B - Lệnh / code deployment
 
@@ -32,7 +32,7 @@ aws configure --profile hospital-dev
 aws sts get-caller-identity --profile hospital-dev
 ```
 
-![IAM deployer](/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_6.png)
+![IAM deployer](/aws-internship-report-dohuynhcaothien/images/5-Workshop/5.4-AWS-Foundation/5.4.2-create-iam-profile/iam_6.png)
 
 #### Kiểm tra
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 1 - FCAJ Community Day"
 date: 2026-07-05
 weight: 1
@@ -18,7 +18,7 @@ pre: " <b> 4.1. </b> "
 | Link sự kiện | <https://luma.com/ubaur0y5?tk=2rxwk1> |
 | Minh chứng | Screenshot trang Luma hiển thị thông tin sự kiện và trạng thái đã tham gia |
 
-![Minh chứng tham gia FCAJ Community Day](/images/events/event1-fcaj-community-day.png)
+![Minh chứng tham gia FCAJ Community Day](/aws-internship-report-dohuynhcaothien/images/events/event1-fcaj-community-day.png)
 
 ### Nội dung nổi bật
 

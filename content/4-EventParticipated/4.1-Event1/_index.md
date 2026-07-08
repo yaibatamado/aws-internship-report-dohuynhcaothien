@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 1 - FCAJ Community Day"
 date: 2026-07-05
 weight: 1
@@ -18,7 +18,7 @@ pre: " <b> 4.1. </b> "
 | Event link | <https://luma.com/ubaur0y5?tk=2rxwk1> |
 | Evidence | Screenshot from the Luma event page showing the event information and attendance confirmation |
 
-![Evidence of FCAJ Community Day participation](/images/events/event1-fcaj-community-day.png)
+![Evidence of FCAJ Community Day participation](/aws-internship-report-dohuynhcaothien/images/events/event1-fcaj-community-day.png)
 
 ### Key Topics
 
