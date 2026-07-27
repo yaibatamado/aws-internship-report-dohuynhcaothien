@@ -10,6 +10,6 @@ pre: " <b> 4. </b> "
 
 During the **Workforce Bootcamp - First Cloud AI Journey** program, I recorded the events and activities that are supported by participation evidence.
 
-At the moment, Event 1 has been added. Other events will be updated later after I collect enough photos, screenshots, or confirmation materials.
+At the moment, two participated events have been added with supporting evidence: **FCAJ Community Day** and **FCAJ Agentic AI Build Week**.
 
 {{% children showhidden="false" /%}}
